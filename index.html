@@ -1,38 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="output.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=search_check_2" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="output.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=search_check_2"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&"
+    />
     <title>Document</title>
     <style>
-        .material-symbols-outlined {
-          font-variation-settings:
-          'FILL' 0,
-          'wght' 400,
-          'GRAD' 0,
-          'opsz' 24
-        }
-        </style>
-</head>
-<body class="bg-[#EEF3FF]">
+      .material-symbols-outlined {
+        font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+      }
+    </style>
+  </head>
+  <body class="bg-[#EEF3FF] w-full">
     <div class="main-heading flex gap-3 w-full justify-center pt-9">
-        <img src="images/github_logo_icon_229278.png" class="w-20">
-    `   <h1 class="text-center text-4xl font-bold pt-5">GitHub Battleboard</h1>
+      <img src="images/github_logo_icon_229278.png" class="w-20" />
+      `
+      <h1 class="text-center text-4xl font-bold pt-5">GitHub Battleboard</h1>
     </div>
-    <h2 class="text-center pt-6 text-xl font-semibold text-gray-700">Compare GitHub Profiles and their statistics side by side</h2>
+    <h2 class="text-center pt-6 text-xl font-semibold text-gray-700">
+      Compare GitHub Profiles and their statistics side by side
+    </h2>
     <!-- making two inputs field -->
-    <div class="input-fields w-full flex justify-center gap-8 pt-12 ">
-        <input type="text" placeholder="First GitHub username" class="text-xl py-2 rounded-xl px-3 pr-28 ">
-        <input type="text" placeholder="Second GitHub username" class="text-xl pr-32 px-3 rounded-xl">
+    <div class="input-fields w-full flex justify-center gap-8 pt-12">
+      <input
+        type="text"
+        placeholder="First GitHub username"
+        class="first-user text-xl py-2 rounded-xl px-3 pr-28"
+      />
+      <input
+        type="text"
+        placeholder="Second GitHub username"
+        class="second-user text-xl pr-32 px-3 rounded-xl"
+      />
     </div>
     <!-- Button for Function for Comparision  -->
-    <div class="compare-button mx-96 mt-6 py-3 bg-blue-600 inline-block px-4 rounded-xl hover:bg-blue-700 cursor-pointer">
-        <span class="text-white material-symbols-outlined ">
-            search_check_2
-            </span>
-        <span class="text-white  text-lg font-semibold">Compare Profiles</span>
-    </div>   
-</body>
+    <div
+      class="compare-button mx-96 mt-6 py-2 bg-blue-600 inline-block px-3 rounded-xl hover:bg-blue-700 cursor-pointer"
+    >
+      <span class="text-white material-symbols-outlined"> search_check_2 </span>
+      <span class="text-white text-lg font-semibold">Compare Profiles</span>
+    </div>
+
+    <!-- Comparison part -->
+    <div class="compare-main w-full px-24">
+      <!-- Code in JS -->
+    </div>
+    <script src="script.js"></script>
+  </body>
 </html>
